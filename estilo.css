@@ -1,0 +1,874 @@
+body{
+    background-color: rgb(224, 224, 224); }
+
+/************************************** HEADER START **********************************/
+
+.header{
+    background-color: rgb(255, 255, 255);
+        padding-bottom:0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none; }
+
+.header a:hover {
+    background-color: rgb(199, 190, 190);
+    color: white; }
+
+.header_imglogo{
+    width:300px;
+    display: inline-block; }
+
+.header_titulo{
+    background-color: rgb(255, 255, 255);
+    color:rgb(106, 154, 148);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px; }
+
+.header_busqueda{
+    background-color: rgb(255, 255, 255);
+        padding-bottom: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px; }
+
+.header_cuadro_busqueda{
+    height: 35px;
+    width: 320px;
+    font-size: medium;
+    margin-left: 10px; }
+
+.header_cart{
+    margin-left: 10px;
+    width:50px; }
+
+.header_login{
+    margin-left: 10px;
+    width:50px; }
+
+/************************************** HEADER END **********************************/
+
+/********************************** MENÚ DESPLEGABLE START *****************************/
+
+.menuDesplegable{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+   font-size: small; }
+
+.pruebaSubMenu a:hover {
+    background-color: rgb(199, 190, 190);
+    color: white; }
+
+.menuDesplegable_titulo{
+    color: white; }
+
+.menuDesplegable_elementos li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding: 10px; }
+
+.menuDesplegable_elementos li a:hover {
+    background-color: rgb(199, 190, 190);
+    color: white; }
+
+ul {
+    list-style:none;
+    position:initial;
+    font-size: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 138, 126);
+        padding: 10px;
+    border-style:none;
+    text-decoration: none; }
+
+ li {
+    display: inline-block;
+    width: 12%;
+    position:initial;
+    align-items:center;
+    font-size: large;
+    border-style:none;
+    text-decoration: none;
+    color: rgb(255, 255, 255); }
+
+ ul ul {
+    position: absolute;
+    display: none;
+    text-decoration: none; }
+
+ ul ul li {
+    display: block;
+    text-decoration: none; }
+
+ ul li:hover ul {
+    display:block;
+    text-decoration: none; }
+
+/********************************** MENÚ DESPLEGABLE END *****************************/
+
+
+/********************************** PRODUCTOS DESTACADOS START *************************************/
+
+
+.productosDestacados {
+	display: flex;
+	height: 500px;
+	flex-direction: column;
+    justify-content:space-around;
+}
+
+#productosDestacados_flex{
+	display: flex;
+	flex: 1;
+	margin-top: 1px;
+    
+}
+
+.productosDestacados_contenedor{
+    flex:1;
+	margin: 1px;
+	background-color: rgb(225, 225, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font: size 3rem;
+}
+
+.productosDestacados_img{
+    
+    opacity: 100%;
+}
+.productosDestacados_img:hover{
+   
+    opacity:70%;
+}
+
+/*********************************** PRODUCTOS DESTACADOS END *************************************/
+
+
+
+
+/******************************** VALORES DE LA EMPRESA START ***************************/
+
+.valoresFlexbox {
+	display: flex;
+	height: 500px;
+	flex-direction: column;
+	padding: 1em; }
+
+#valoresEmpresa{
+	display: flex;
+	flex: 1;
+	margin-top: 1px; }
+
+.valoresEmpresa_texto{
+    flex:1;
+	padding: 2rem;
+	margin: 20px;
+	background-color: rgb(106, 154, 148);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight:normal; }
+
+.valoresEmpresa_img{
+    padding-top: 20px; }
+
+/********************************* VALORES DE LA EMPRESA END **********************************/
+
+
+/********************************* NUEVOS ARRIBOS START **************************************/
+
+.nuevosArribos {
+	display: flex;
+	height: 500px;
+	flex-direction: column;
+	padding: 1em;
+    justify-content:space-around; }
+
+#nuevosArribos_contenedor{
+	display: flex;
+	flex: 1;
+	margin-top: 1px; }
+
+.nuevosArribos_titulo{
+    background-color: rgb(86, 138, 126);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    margin:auto;
+    display:block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.nuevosArribos_texto{
+    flex:1;
+	padding: 1rem;
+	margin: 1px;
+	background-color: rgb(224, 224, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: left;
+    font-size:small;
+    font-weight:normal;
+    transition: all 1s ease; }
+
+.nuevosArribos_texto:hover{
+    transform: scale(1.2,1.2); }
+
+.nuevosArribos_img{
+    width: 250px; }
+
+.nuevosArribos_boton{
+    color: rgb(28, 103, 92);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-left: 0%; }
+
+/********************************* NUEVOS ARRIBOS END **************************************/
+
+
+
+
+/*************** CARRUSEL START ****************/
+
+
+
+/*************** CARRUSEL END ****************/
+
+
+
+
+
+/*************** BANNER FINAL CENTRAL START ****************/
+
+.centrarFinal{
+    margin:auto;
+    display: block;
+    opacity: 100%;
+}
+.centrarFinal:hover{
+    margin:auto;
+    display: block;
+    opacity:70%;
+}
+
+/*************** BANNER FINAL CENTRAL END ****************/
+
+.desafio1{
+    color: rgb(20, 84, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    font-weight: 500; 
+
+}
+
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "nav productos publicidad"
+      "nav servicios servicios"
+      "nav footer footer";
+    grid-template-rows: auto 1fr 1fr 75px; 
+    grid-template-columns: 0% auto 60%;
+ }
+ .border {
+    border: 1px;
+    border-color: black;
+ }
+ header {
+    grid-area: header;
+}
+    
+ 
+ footer {
+    grid-area: footer;
+ }
+ section#productos {
+    grid-area: productos;  
+    background-color:rgb(224, 224, 224); 
+    align-items: center; 
+ }
+ section#servicios {
+    grid-area: servicios;     
+ }
+
+ aside {
+    grid-area: publicidad;
+        color: rgb(79, 79, 79);
+        background-color:rgb(224, 224, 224);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        padding: 2%;
+    }
+
+.botonCarrito {
+    font-size: larger;
+    color: white;
+    text-align: center;
+    background-color: rgb(20, 84, 77);
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+
+
+    .reviewUno {
+        color: #171616;
+        text-align: center; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5%;
+    }
+    
+    .reviewDos {
+        color: #171616;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5%;    
+    }
+
+     
+    .reviewTres {
+        color: #171616;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5%;
+    
+    }
+    
+    p {
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+    
+   .reviews{
+        margin: 10px;
+        display: inline-block;
+    }
+    section article {
+        background-color: #cccccc;
+        width: 500px;
+        height: 300px;
+        padding: 40px;
+    }
+    
+    section article p {
+        line-height: 4;
+    }
+ 
+    
+.sectionTabla{
+    display: flex;
+	height: 50%;
+	flex-direction: column;	
+    background-color: rgb(224, 224, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: left;
+    padding: 1%;
+    margin-top: 1%;
+    
+}
+
+.footer {
+	display: flex;
+	height: 500px;
+	flex-direction: column;
+	padding: 1em;
+    background-color: rgb(225, 225, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: left;
+}
+  
+
+.footerFlexbox {
+	display: flex;
+	height: 500px;
+	flex-direction: column;
+	padding: 1em;
+}
+
+#opcionesVarias{
+	display: flex;
+	flex: 1;
+	margin-top: 1px;
+}
+
+.opcionesVarias{
+    flex:1;
+	padding: 2rem;
+	margin: 0px;
+	background-color: rgb(225, 225, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: left;
+    font: size 3rem;
+    font-weight:normal;
+}
+
+
+
+h5{
+font-weight: normal;
+
+}
+
+
+.derechosReservados{
+    background-color:rgb(197, 211, 206);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 85%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+.pruebaSubMenu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+   font-size: small;
+}
+
+.pruebaSubMenu a:hover {
+    background-color: rgb(199, 190, 190);
+    color: white;
+ }
+
+.decoracionColor{
+    color: white;
+}
+
+.cocinaColor{
+    color: white;
+}
+
+.bañoColor{
+    color: white;
+}
+
+.indumColor{
+    color: white;
+}
+
+.accColor{
+    color: white;
+}
+
+.infColor{
+    color: white;
+}
+
+.saleColor{
+    color: white;
+}
+
+
+
+.subm li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+   
+}
+
+.subm li a:hover {
+    background-color: rgb(199, 190, 190);
+    color: white;
+ }
+
+ul {
+    list-style:none;
+    position:initial;
+    font-size: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 138, 126);
+        padding: 10px;
+    border-style:none;
+    text-decoration: none;
+ }
+
+ li {
+    display: inline-block;
+    width: 12%;
+    position:initial;
+    align-items:center;
+    font-size: large;
+    border-style:none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+    text-decoration: none;
+ }
+ ul ul li {
+    display: block;
+    text-decoration: none;
+ }
+ ul li:hover ul {
+    display:block;
+    text-decoration: none;
+ }
+
+
+
+ /*************** PAGINA DECORACIÓN START ****************/
+ .tituloDecoracion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: grey;
+    animation-duration: 2s;
+    animation-name: aparecer;
+     }
+          
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+  /*************** PAGINA DECORACIÓN END ****************/
+
+   /******************************************** PAGINA COCINA START **********************************/
+ .tituloCocina{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size: xx-large;
+    text-align: left;
+    padding: 2px;;
+    color: grey;
+    animation-duration: 2s;
+    animation-name: aparecer;
+     }
+          
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+
+     .descripcionCocina{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:bold;
+        font-size: x-large;
+        text-align: left;
+        padding: 2px;
+        color: grey;
+        animation-duration: 2s;
+    animation-name: aparecer;
+     }
+          
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+    
+    
+     .info{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        grid-area: info;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size:small;
+        font-weight:normal;
+        transition: all 1s ease;
+    }
+    
+    .info:hover{
+        transform: scale(1.2,1.2);
+    }
+
+    .marca{
+        margin: 0;
+        padding:0;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size:x-large;
+        font-weight:500;
+    }
+
+    .tipo{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size:large;
+        font-weight:normal;
+    }
+
+    .precio{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size:large;
+        font-weight:500;
+    }
+
+    .form-select{
+        margin: 0;
+        padding: 1;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size:medium;
+        font-weight:normal;
+    }
+
+    @media (max-width: 576px) {
+        .productosDeCocina{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+        }
+    }
+       
+    
+    @media (min-width:768px){
+        .productosDeCocina{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+   
+
+
+/******************************************* PAGINA COCINA END ****************************************************/
+
+  
+ /*************** PAGINA ACCESORIOS START ****************/
+ .tituloAccesorios{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: grey;
+    animation-duration: 2s;
+    animation-name: aparecer;
+     }
+          
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+/*************** PAGINA ACCESORIOS END ****************/
+
+ /*************** PAGINA BAÑO START ****************/
+ .tituloBaño{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+     color: grey;
+     animation-duration: 2s;
+     animation-name: aparecer;
+      }
+           
+      @keyframes aparecer {
+         0% {
+           opacity: 0;
+         }
+         100% {
+           opacity: 1;
+         }
+      }
+  /*************** PAGINA BAÑO END ****************/
+
+/*************** PAGINA INDUMENTARIA START ****************/
+.tituloIndumentaria{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+     color: grey;
+     animation-duration: 2s;
+     animation-name: aparecer;
+      }
+           
+      @keyframes aparecer {
+         0% {
+           opacity: 0;
+         }
+         100% {
+           opacity: 1;
+         }
+      }
+  /*************** PAGINA INDUMENTARIA END ****************/
+
+  /*************** PAGINA INFANTIL START ****************/
+.tituloInfantil{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+     color: grey;
+     animation-duration: 2s;
+     animation-name: aparecer;
+      }
+           
+      @keyframes aparecer {
+         0% {
+           opacity: 0;
+         }
+         100% {
+           opacity: 1;
+         }
+      }
+  /*************** PAGINA INFANTIL END ****************/
+
+    /*************** PAGINA SALE START ****************/
+.tituloSale{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: grey;
+    animation-duration: 2s;
+    animation-name: aparecer;
+     }
+          
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+  /*************** PAGINA SALE END ****************/
+
+    /*************** PAGINA ARTESANOS START ****************/
+.tituloArtesanos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: grey;
+    animation-duration: 2s;
+    animation-name: aparecer;
+     }
+          
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+  /*************** PAGINA ARTESANOS END ****************/
+
+   /*************** PAGINA QUIENES SOMOS START ****************/
+.tituloQuienesSomos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: grey;
+    animation-duration: 2s;
+    animation-name: aparecer;
+     }
+          
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+  /*************** PAGINA QUIENES SOMOS END ****************/
+
+
+ 
+ @media only screen and (min-width: 768px) {
+    .body {
+            background-color: rgb(224, 224, 224);
+      }
+    }
+
+@media only screen and (min-width: 768px) {
+	#grilla {
+            grid-template-columns: repeat(4, 1fr);
+      }
+      .border {
+    	border: 1px solid rgb(224, 224, 224);
+    	background-color: rgb(224, 224, 224);
+     }
+}
+@media only screen and (min-width: 1024px) {
+	#grilla {
+            grid-template-columns: repeat(3, 1fr);
+      }
+      .border {
+    	border: 1px solid rgb(224, 224, 224);
+    	background-color: rgb(224, 224, 224);
+     }
+}
+
+/*************** PAGINA ERROR 404 START ****************/
+.Error {
+    background-image: url("https://img2.rtve.es/imagenes/artesanos-buscan-alternativas-para-sobrevivir-pandemia/1609793246833.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+  
+  }
+  .Error_button {
+    background-color: rgb(106, 154, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    font-weight:550;
+    color:rgb(46, 46, 46);
+    padding: 1rem;
+    border: none;
+    text-decoration: none;
+}
+.Error_texto {
+    background-color: rgb(172, 172, 172);
+    opacity: 100%;
+    background-position-x: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+    text-decoration: none;
+}
+/*************** PAGINA ERROR 404 END ****************/

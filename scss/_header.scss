@@ -1,0 +1,152 @@
+/************************** HEADER START*******************************/
+.header1{
+    background-color: rgb(255, 255, 255);
+        padding-bottom: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    .header1 a:hover {
+        background-color: rgb(199, 190, 190);
+        color: white;
+        .loguito{
+            display: inline-block;
+            .home{
+                background-color: rgb(255, 255, 255);
+                color:rgb(106, 154, 148);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                font-size: x-large;
+                font-weight: 500;
+                text-decoration: none;
+                .Nosotros{
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(106, 154, 148);
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                    font-size: x-large;
+                    font-weight: 500;
+                    text-decoration: none;
+                    margin-left: 40px;
+                    .Artesanos{
+                        background-color: rgb(255, 255, 255);                            
+                        color: rgb(106, 154, 148);
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                        font-size: x-large;
+                        font-weight: 500;
+                        text-decoration: none;
+                        margin-left: 40px;
+                        .Busqueda{
+                            background-color: rgb(255, 255, 255);
+                                padding-bottom: 60px;
+                            color: rgb(255, 255, 255);
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                            font-size: x-large;
+                            font-weight: 500;
+                            text-decoration: none;
+                            margin-left: 20px;
+                            .cuadritoBusqueda{
+                                height: 40px;
+                                width: 320px;
+                                font-size: medium;
+                                margin-left: 10px;  
+                                .login{
+                                    margin-left: 10px;
+                                    .carrito{
+                                        margin-left: 10px;  
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+                
+        }
+        
+    }
+}
+/***************************** HEADER END *****************************/
+
+/************************** MENU DESPLEGABLE START*******************************/+
+.pruebaSubMenu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+        .pruebaSubMenu a:hover {
+            background-color: rgb(199, 190, 190);
+            color: white;
+            .decoracionColor{
+                color: white;
+                .cocinaColor{
+                    color: white;    
+                    .bañoColor{
+                    color: white;
+                        .indumColor{
+                        color: white;
+                            .accColor{
+                            color: white;
+                                .infColor{
+                                color: white;
+                                .saleColor{
+                                    color: white;
+                                    }
+                                }   
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+
+
+.subm li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+    .subm li a:hover {
+        background-color: rgb(199, 190, 190);
+        color: white;
+    }
+}
+
+
+ul {
+    list-style:none;
+    position:initial;
+    font-size: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 138, 126);
+        padding: 10px;
+    border-style:none;
+    text-decoration: none;
+ }
+
+ li {
+    display: inline-block;
+    width: 12%;
+    position:initial;
+    align-items:center;
+    font-size: large;
+    border-style:none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+    text-decoration: none;
+ }
+ ul ul li {
+    display: block;
+    text-decoration: none;
+ }
+ ul li:hover ul {
+    display:block;
+    text-decoration: none;
+ }
+
+/************************** MENU DESPLEGABLE END*******************************/

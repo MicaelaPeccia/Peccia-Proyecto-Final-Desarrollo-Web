@@ -1,0 +1,42 @@
+@import "header";
+@import "accesorios";
+@import "artesanos";
+@import "baño";
+@import "cocina";
+@import "decoracion";
+@import "infantil";
+@import "indumentaria";
+@import "nosotros";
+@import "producto1";
+@import "sale";
+@import "footer";
+
+$colorBg:#c7bebe;
+.colorBg{
+    color: #c7bebe;
+}
+
+@media only screen and (min-width: 768px) {
+    .body {
+            background-color: rgb(224, 224, 224);
+      }
+    }
+
+@media only screen and (min-width: 768px) {
+	#grilla {
+            grid-template-columns: repeat(4, 1fr);
+      }
+      .border {
+    	border: 1px solid rgb(224, 224, 224);
+    	background-color: rgb(224, 224, 224);
+     }
+}
+@media only screen and (min-width: 1024px) {
+	#grilla {
+            grid-template-columns: repeat(3, 1fr);
+      }
+      .border {
+    	border: 1px solid rgb(224, 224, 224);
+    	background-color: rgb(224, 224, 224);
+     }
+}

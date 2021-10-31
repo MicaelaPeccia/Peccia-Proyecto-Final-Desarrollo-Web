@@ -1,0 +1,517 @@
+@charset "UTF-8";
+/************************** HEADER START*******************************/
+.header1 {
+  background-color: white;
+  padding-bottom: 35px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header1 .header1 a:hover {
+  background-color: #c7bebe;
+  color: white;
+}
+
+.header1 .header1 a:hover .loguito {
+  display: inline-block;
+}
+
+.header1 .header1 a:hover .loguito .home {
+  background-color: white;
+  color: #6a9a94;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros {
+  background-color: white;
+  color: #6a9a94;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos {
+  background-color: white;
+  color: #6a9a94;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda {
+  background-color: white;
+  padding-bottom: 60px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda .cuadritoBusqueda {
+  height: 40px;
+  width: 320px;
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda .cuadritoBusqueda .login {
+  margin-left: 10px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda .cuadritoBusqueda .login .carrito {
+  margin-left: 10px;
+}
+
+/***************************** HEADER END *****************************/
+/************************** MENU DESPLEGABLE START*******************************/
+
+.pruebaSubMenu {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover {
+  background-color: #c7bebe;
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor .accColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor .accColor .infColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor .accColor .infColor .saleColor {
+  color: white;
+}
+
+.subm li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.subm li .subm li a:hover {
+  background-color: #c7bebe;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  position: initial;
+  font-size: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #568a7e;
+  padding: 10px;
+  border-style: none;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  width: 12%;
+  position: initial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: large;
+  border-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+  text-decoration: none;
+}
+
+ul ul li {
+  display: block;
+  text-decoration: none;
+}
+
+ul li:hover ul {
+  display: block;
+  text-decoration: none;
+}
+
+/************************** MENU DESPLEGABLE END*******************************/
+/************************** HEADER START*******************************/
+.header1 {
+  background-color: white;
+  padding-bottom: 35px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header1 .header1 a:hover {
+  background-color: #c7bebe;
+  color: white;
+}
+
+.header1 .header1 a:hover .loguito {
+  display: inline-block;
+}
+
+.header1 .header1 a:hover .loguito .home {
+  background-color: white;
+  color: #6a9a94;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros {
+  background-color: white;
+  color: #6a9a94;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos {
+  background-color: white;
+  color: #6a9a94;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda {
+  background-color: white;
+  padding-bottom: 60px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda .cuadritoBusqueda {
+  height: 40px;
+  width: 320px;
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda .cuadritoBusqueda .login {
+  margin-left: 10px;
+}
+
+.header1 .header1 a:hover .loguito .home .Nosotros .Artesanos .Busqueda .cuadritoBusqueda .login .carrito {
+  margin-left: 10px;
+}
+
+/***************************** HEADER END *****************************/
+/************************** MENU DESPLEGABLE START*******************************/
+
+.pruebaSubMenu {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover {
+  background-color: #c7bebe;
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor .accColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor .accColor .infColor {
+  color: white;
+}
+
+
+.pruebaSubMenu .pruebaSubMenu a:hover .decoracionColor .cocinaColor .bañoColor .indumColor .accColor .infColor .saleColor {
+  color: white;
+}
+
+.subm li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.subm li .subm li a:hover {
+  background-color: #c7bebe;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  position: initial;
+  font-size: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #568a7e;
+  padding: 10px;
+  border-style: none;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  width: 12%;
+  position: initial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: large;
+  border-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+  text-decoration: none;
+}
+
+ul ul li {
+  display: block;
+  text-decoration: none;
+}
+
+ul li:hover ul {
+  display: block;
+  text-decoration: none;
+}
+
+/************************** MENU DESPLEGABLE END*******************************/
+/**************************** FOOTER START *****************************/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  background-color: #e1e1db;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.footer .footerFlexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+}
+
+.footer .footerFlexbox #opcionesVarias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 1px;
+}
+
+.footer .footerFlexbox #opcionesVarias .opcionesVarias {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 2rem;
+  margin: 0px;
+  background-color: #e1e1db;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: left;
+  font: size 3rem;
+  font-weight: normal;
+}
+
+.footer .footerFlexbox .derechosReservados {
+  background-color: #c5d3ce;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 85%;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/******************* FOOTER START *******************/
+/**************************** FOOTER START *****************************/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  background-color: #e1e1db;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.footer .footerFlexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+}
+
+.footer .footerFlexbox #opcionesVarias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 1px;
+}
+
+.footer .footerFlexbox #opcionesVarias .opcionesVarias {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 2rem;
+  margin: 0px;
+  background-color: #e1e1db;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: left;
+  font: size 3rem;
+  font-weight: normal;
+}
+
+.footer .footerFlexbox .derechosReservados {
+  background-color: #c5d3ce;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 85%;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/******************* FOOTER START *******************/
+@media only screen and (min-width: 768px) {
+  .body {
+    background-color: #e0e0e0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #grilla {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  .border {
+    border: 1px solid #e0e0e0;
+    background-color: #e0e0e0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #grilla {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .border {
+    border: 1px solid #e0e0e0;
+    background-color: #e0e0e0;
+  }
+}
+/*# sourceMappingURL=prueba.css.map */

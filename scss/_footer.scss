@@ -1,0 +1,47 @@
+/**************************** FOOTER START *****************************/
+.footer {
+	display: flex;
+	height: 500px;
+	flex-direction: column;
+	padding: 1em;
+    background-color: rgb(225, 225, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: left;
+
+    .footerFlexbox {
+        display: flex;
+        height: 500px;
+        flex-direction: column;
+        padding: 1em;
+    
+        #opcionesVarias{
+            display: flex;
+            flex: 1;
+            margin-top: 1px;
+
+            .opcionesVarias{
+                flex:1;
+                padding: 2rem;
+                margin: 0px;
+                background-color: rgb(225, 225, 219);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: black;
+                text-align: left;
+                font: size 3rem;
+                font-weight:normal;
+            }
+        }
+
+                .derechosReservados{
+                    background-color:rgb(197, 211, 206);
+                    color: rgb(0, 0, 0);
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 85%;
+                    text-align: center;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+            }
+        }
+/******************* FOOTER START *******************/
